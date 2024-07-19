@@ -1,0 +1,45 @@
+.food-item-detail{
+    background-color: rgb(245, 229, 224);
+}
+.food-item-detail {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: left; /* Align text content to the left */
+}
+
+.food-item-detail img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 10px;
+    height: 400px;
+    width: 600px;
+    object-fit: cover; /* Ensures the image covers the entire container */
+    border: 5px solid white; /* Border around the image */
+}
+
+.food-item-detail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.food-item-detail h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: left; /* Ensure headings are aligned to the left */
+    font-family: 'Comic Sans MS';
+}
+
+.food-item-detail ul, .food-item-detail ol {
+    padding-left: 20px;
+    font-family: 'Comic Sans MS';
+    text-align: left; /* Align list items to the left */
+}
+
+.foodItem-name{
+    font-family: 'Comic Sans MS';
+    font-size: xx-large;
+}

@@ -1,0 +1,121 @@
+/* Reset default link styles */
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
+}
+
+body {
+    background-color: white;
+}
+
+.outer-box {
+    padding: 15px;
+    /* Adjust padding as needed */
+}
+
+.inner-box {
+    background-color: black;
+    padding: 8px;
+    /* Adjust padding as needed */
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure elements are spaced out */
+    background-color: white;
+    color: #e2dede;
+    position: relative;
+    height: 80px;
+    /* Adjust background and text color as needed */
+}
+
+.left-links {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Remove margin to reduce gap */
+}
+
+.link {
+    margin-right: 19px;
+    margin-left: 13px;
+    margin-top: 0; /* Reduce top margin */
+    margin-bottom: 0; /* Reduce bottom margin */
+    text-decoration: none; /* Ensure links have no underline */
+    color: #464444; /* Adjust link color */
+    font-family: 'Comic Sans MS', cursive; /* Add cursive to font family */
+    font-size: 21px;
+    /* Adjust font and spacing as needed */
+}
+
+.logout-link:hover {
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.heading {
+    font-family: 'Stencil Std', sans-serif; /* Ensure fallback font */
+    font-size: 45px;
+    text-decoration: none;
+    color: #464444;
+    font-style: oblique;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0; /* Reduce top margin */
+    margin-bottom: 0; /* Reduce bottom margin */
+    /* Center the heading */
+}
+
+.username {
+    font-family: 'Comic Sans MS', cursive; /* Ensure cursive font */
+    font-size: 21px;
+    color: #464444;
+    font-weight: bold;
+    margin-right: 20px; /* Adjust margin as needed */
+    margin-top: 0; /* Reduce top margin */
+    margin-bottom: 0; /* Reduce bottom margin */
+    /* Align text to the rightmost position */
+}
+
+.section-line {
+    border-bottom: 1px solid #dfdcdc;
+    /* Adjust border color and style as needed */
+}
+
+.food-items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    /* Adjust grid and padding as needed */
+}
+
+.food-item {
+    background-color: #f3f0f0;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    /* Adjust background and cursor as needed */
+}
+
+.food-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    /* Adjust image styles as needed */
+}
+
+.food-item-text {
+    font-family: 'Comic Sans MS', cursive; /* Add cursive font */
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 10px;
+    /* Adjust text styles as needed */
+}
+
+.success-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+}

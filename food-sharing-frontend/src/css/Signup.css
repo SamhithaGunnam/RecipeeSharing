@@ -1,0 +1,105 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.signup-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('C:\Users\grsam\Downloads/django/food-sharing-frontend/src/images/signup.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 350px;
+  text-align: center;
+  margin-top: 20px; /* Adjust if needed */
+}
+
+.signup-heading {
+  font-family: 'Stencil Std', cursive;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(236, 170, 49);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Comic Sans MS', cursive;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: orange;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(248, 249, 250, 0.9); /* Slightly transparent background */
+  z-index: 1000;
+  transition: top 0.3s ease-in-out; /* Smooth hide/show transition */
+}
+
+.header.hidden {
+  top: -100px; /* Adjust to hide the header smoothly */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: 'Comic Sans MS', cursive;
+  color: #007bff;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+}
+
+.header-title {
+  font-family: 'Stencil Std', cursive;
+  margin-left: auto;
+}

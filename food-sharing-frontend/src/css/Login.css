@@ -1,0 +1,75 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.login-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('C:\Users\grsam\Downloads/django/food-sharing-frontend/src/images/login.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  margin-top: 20px; /* Adjust if needed */
+}
+
+.login-heading {
+  font-family: 'Stencil Std', cursive;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(248, 171, 29);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Comic Sans MS', cursive;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: orange;
+}
